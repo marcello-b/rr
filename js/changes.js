@@ -9,3 +9,4 @@ $(window).scroll(function () {
        $('#fh5co-header-section').css('background-color','rgba(6, 36, 57, 0.0)');
    }
 });
+

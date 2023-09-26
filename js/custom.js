@@ -250,6 +250,7 @@ $(function(){
 
 
 
+
    // Animate
 
 //   const animation_elements = document.querySelectorAll('.animate__fadeInUp', '.animate__fadeInLeft', '.animate__fadeInRight');
