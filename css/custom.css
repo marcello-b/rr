@@ -116,19 +116,19 @@
   }
 
   #bike-facilities .ico-bike {
-    color: #092E49;
+    color: #00B8FF;
   }
 
  #bike-facilities .ico-bike:hover {
-    color: #00B8FF;
+    color: #092E49;
   }
 
   #bike-facilities .link-fit {
-    color: #00B8FF;
+    color: #092E49;
   }
 
  #bike-facilities .link-fit:hover {
-    color: #092E49;
+    color: #00B8FF;
   }
 
   hr.focus {
