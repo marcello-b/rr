@@ -37,7 +37,7 @@
   @media screen and (max-width: 992px) {
     /* Ocultar o menu normal */
     .sf-menu {
-      display: none;
+      display: none; 
     }
   
     /* Estilo para o botão do menu mobile */
@@ -115,6 +115,26 @@
     height:auto;
   }
 
+  #bike-facilities .ico-bike {
+    color: #092E49;
+  }
+
+ #bike-facilities .ico-bike:hover {
+    color: #00B8FF;
+  }
+
+  #bike-facilities .link-fit {
+    color: #00B8FF;
+  }
+
+ #bike-facilities .link-fit:hover {
+    color: #092E49;
+  }
+
+  hr.focus {
+    border: 1px solid #a7a7a7;
+  } 
+
   /* Splash button */
 
   .btn-blue {
@@ -148,6 +168,8 @@
     height: 100%;
   }
 
+  /* YouTube */
+
   .youtube {
     display: block;
     position: relative;
@@ -163,4 +185,3 @@
     width: 100%;
     height: 100%;
   }
-

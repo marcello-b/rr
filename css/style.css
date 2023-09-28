@@ -3706,7 +3706,7 @@ select[multiple].input-lg,
 }
 
 a.btn.disabled, fieldset[disabled] a.btn {
-  pointer-events: none;
+   pointer-events: none; 
 }
 
 .btn-default {
@@ -4647,9 +4647,9 @@ tbody.collapse.in {
   }
 }
 
-.tab-content > .tab-pane {
+/* .tab-content > .tab-pane {
   display: none;
-}
+} */
 .tab-content > .active {
   display: block;
 }
@@ -4839,7 +4839,7 @@ tbody.collapse.in {
 }
 @media (min-width: 768px) {
   .navbar-toggle {
-    display: none;
+    display: none; 
   }
 }
 
@@ -6553,7 +6553,7 @@ button.close {
   position: absolute;
   z-index: 1070;
   display: block;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Lato","Helvetica Neue", Helvetica, Arial, sans-serif;
   font-style: normal;
   font-weight: normal;
   letter-spacing: normal;
@@ -6675,7 +6675,7 @@ button.close {
   display: none;
   max-width: 276px;
   padding: 1px;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-style: normal;
   font-weight: normal;
   letter-spacing: normal;
@@ -8248,12 +8248,22 @@ div.cs-select span {
   width: 100%;
 }
 
+#bikefit-hotel {
+  float: left;
+  width: 100%;
+}
+
 #featured-hotel .section-title h1 {
   color: #062940 !important;
   font-weight: bold;
 }
 
 #hotel-facilities .section-title h1 {
+  color: #062940 !important;
+  font-weight: bold;
+}
+
+#bike-facilities .section-title h1 {
   color: #062940 !important;
   font-weight: bold;
 }
@@ -8415,7 +8425,9 @@ div.cs-select span {
 }
 
 #featured-hotel,
+#featured-bikefit,
 #hotel-facilities,
+#bike-facilities,
 #testimonial,
 #fh5co-blog-section,
 #fh5co-hotel-section,
@@ -8435,6 +8447,7 @@ div.cs-select span {
   padding: 7em 3em;
 }
 
+
 #tabs {
   float: left;
   width: 100%;
@@ -8446,8 +8459,7 @@ div.cs-select span {
 }
 #tabs .tabs-nav > a {
   float: left;
-  /* width: 16.666667%; */
-  width: 33.333333%;
+  width: 33.333334%;
   text-align: center;
   font-size: 13px;
   letter-spacing: 2px;
@@ -8461,13 +8473,17 @@ div.cs-select span {
   -o-transition: 0.3s;
   transition: 0.3s;
 }
+
+#hotel-facilities.responsive-height {
+  transition: height 0.3s;
+} 
+
 #tabs .tabs-nav > a > .icon {
   margin-bottom: 20px;
   -webkit-transition: 0.3s;
   -o-transition: 0.3s;
   transition: 0.3s;
 }
-
 #tabs .tabs-nav > a > .icon:before {
   font-size: 40px;
 }
@@ -8478,18 +8494,18 @@ div.cs-select span {
   font-weight: 700;
 }
 #tabs .tabs-nav > a.active {
-  color: #092E49;
-  border-bottom: 1px solid #00B8FF;
+  color: #FF5722;
+  border-bottom: 1px solid #FF5722;
 }
 #tabs .tabs-nav > a.active .icon {
-  color: #00B8FF;
+  color: #FF5722;
 }
 #tabs .tabs-nav > a:hover {
   text-decoration: none;
-  color: #00B8FF;
+  color: #FF5722;
 }
 #tabs .tabs-nav > a:hover .icon {
-  color: #00B8FF;
+  color: #FF5722;
 }
 #tabs .tabs-nav > a:focus, #tabs .tabs-nav > a:active {
   outline: none;
@@ -8508,7 +8524,7 @@ div.cs-select span {
   position: absolute;
   width: 100%;
   float: left;
-  opacity: 0;
+  opacity: 1;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
@@ -9032,7 +9048,7 @@ input[type="text"] {
 
 @media screen and (max-width: 768px) {
   #fh5co-menu-wrap {
-    display: none;
+     display: none; 
   }
 }
 
@@ -9311,6 +9327,22 @@ input[type="text"] {
   max-width: 100%;
 }
 .youtube iframe, .youtube object, .youtube embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.youtube1 {
+  display: block;
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+  max-width: 100%;
+}
+.youtube1 iframe, .youtube1 object, .youtube1 embed {
   position: absolute;
   top: 0;
   left: 0;

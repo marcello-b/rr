@@ -11,6 +11,23 @@ $(window).scroll(function () {
    }
 });
 
+
+// Mostra Fit
+
+function mostraFit(bikefit){
+    var destino = bikefit
+    var foco = 'focus-' + bikefit
+    document.getElementById("completo").style.display="none";
+    document.getElementById("focus-completo").style.display="none";
+    document.getElementById("simples").style.display="none";
+    document.getElementById("focus-simples").style.display="none";
+    document.getElementById("selin").style.display="none";
+    document.getElementById("focus-selin").style.display="none";
+    document.getElementById(destino).style.display="block";
+    document.getElementById(foco).style.display="block";
+  }
+
+
 /* WOW
  ========================================================*/
  ;

@@ -29,7 +29,7 @@ $(function(){
       $('#fh5co-primary-menu').superfish({
          delay: 0,
          animation: {
-            opacity: 'show'
+         opacity: 'show'
          },
          speed: 'fast',
          cssArrows: true,
@@ -62,7 +62,7 @@ $(function(){
             $('body').addClass('fh5co-offcanvas');
             $(this).addClass('active');
          }
-         // $('body').toggleClass('fh5co-offcanvas');
+            // $('body').toggleClass('fh5co-offcanvas');
 
       });
 
@@ -76,7 +76,7 @@ $(function(){
 
          if ( w.width() > 769 ) {
             if ( $('body').hasClass('fh5co-offcanvas') ) {
-               $('body').removeClass('fh5co-offcanvas');
+                $('body').removeClass('fh5co-offcanvas');
             }
          }
 
@@ -156,34 +156,36 @@ $(function(){
    
    // Tabs
 
-   var tabs = function() {
-      $('#hotel-facilities').css('height', $('.tab-content.active').height() + 600);
+    var tabs = function() {
+        $('#hotel-facilities').css('height', $('.tab-content.active').height() + 600);
 
-      $(window).resize(function(){
-         $('#hotel-facilities').css('height', $('.tab-content.active').height() + 600);
-      });
+        $(window).resize(function(){
+           $('#hotel-facilities').css('height', $('.tab-content.active').height() + 600);
+        });
 
-      $('.tabs-nav > a').on('click', function(e){
+        $('.tabs-nav > a').on('click', function(e){
          
-         var tab = $(this).data('tab');
+           var tab = $(this).data('tab');
 
-         $('.tabs-nav > a').removeClass('active');
-         $(this).addClass('active');
+           $('.tabs-nav > a').removeClass('active');
+           $(this).addClass('active');
 
-         $('.tab-content').removeClass('active show');
+           $('.tab-content').removeClass('active show');
          
-         setTimeout(function(){
-            $('.tab-content[data-tab-content="'+tab+'"]').addClass('active');
-            $('#hotel-facilities').css('height', $('.tab-content.active').height() + 600);
-         }, 200);
-         setTimeout(function(){
-            $('.tab-content[data-tab-content="'+tab+'"]').addClass('show');
-         }, 400);
+           setTimeout(function(){
+              $('.tab-content[data-tab-content="'+tab+'"]').addClass('active');
+              $('#hotel-facilities').css('height', $('.tab-content.active').height() + 600);
+           }, 200);
+           setTimeout(function(){
+              $('.tab-content[data-tab-content="'+tab+'"]').addClass('show');
+           }, 400);
          
 
-         e.preventDefault();
-      });
-   };
+           e.preventDefault();
+        });
+     };
+
+
 
    var sliderMain = function() {
       
