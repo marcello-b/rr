@@ -8448,10 +8448,12 @@ div.cs-select span {
 }
 
 
-#tabs {
+#tabs2,
+#tabs2 {
   float: left;
   width: 100%;
 }
+#tabs2,
 #tabs .tabs-nav {
   border-bottom: 1px solid #f0f0f0;
   float: left;
@@ -8473,53 +8475,80 @@ div.cs-select span {
   -o-transition: 0.3s;
   transition: 0.3s;
 }
+#tabs2 .tabs-nav > a {
+  float: left;
+  width: 25%;
+  text-align: center;
+  font-size: 13px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #ccc;
+  padding: 10px 0 40px 0;
+  border-bottom: 1px solid transparent;
+  margin-bottom: -1px;
+  position: relative;
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+}
 
 #hotel-facilities.responsive-height {
   transition: height 0.3s;
 } 
-
+#tabs2,
 #tabs .tabs-nav > a > .icon {
   margin-bottom: 20px;
   -webkit-transition: 0.3s;
   -o-transition: 0.3s;
   transition: 0.3s;
 }
+#tabs2,
 #tabs .tabs-nav > a > .icon:before {
   font-size: 40px;
 }
+#tabs2,
 #tabs .tabs-nav > a > .icon, #tabs .tabs-nav > a > span {
   display: block;
 }
+#tabs2,
 #tabs .tabs-nav > a > span {
   font-weight: 700;
 }
+#tabs2,
 #tabs .tabs-nav > a.active {
   color: #FF5722;
   border-bottom: 1px solid #FF5722;
 }
+#tabs2,
 #tabs .tabs-nav > a.active .icon {
   color: #FF5722;
 }
+#tabs2,
 #tabs .tabs-nav > a:hover {
   text-decoration: none;
   color: #FF5722;
 }
+#tabs2,
 #tabs .tabs-nav > a:hover .icon {
   color: #FF5722;
 }
+#tabs2,
 #tabs .tabs-nav > a:focus, #tabs .tabs-nav > a:active {
   outline: none;
   text-decoration: none !important;
 }
+#tabs2,
 #tabs .tabs-nav > a:focus > .icon, #tabs .tabs-nav > a:focus > span, #tabs .tabs-nav > a:active > .icon, #tabs .tabs-nav > a:active > span {
   text-decoration: none !important;
 }
+#tabs2,
 #tabs .tab-content-container {
   position: relative;
   width: 100%;
   float: left;
   padding-top: 40px;
 }
+#tabs2,
 #tabs .tab-content-container .tab-content {
   position: absolute;
   width: 100%;
@@ -8529,15 +8558,18 @@ div.cs-select span {
   -o-transition: 0.5s;
   transition: 0.5s;
 }
+#tabs2,
 #tabs .tab-content-container .tab-content.show {
   opacity: 1;
 }
+#tabs2,
 #tabs .heading {
   font-size: 40px;
   color: #52565b;
   margin: 0 0 30px 0;
   padding: 0;
 }
+#tabs2,
 #tabs .super-heading-sm {
   font-weight: 400;
   margin: 0;
@@ -8547,9 +8579,11 @@ div.cs-select span {
   text-transform: uppercase;
   letter-spacing: 2px;
 }
+#tabs2,
 #tabs .service-hour {
   padding-top: 20px;
 }
+#tabs2,
 #tabs .service-hour > span {
   font-weight: 400;
   margin: 0;
@@ -8560,6 +8594,7 @@ div.cs-select span {
   letter-spacing: 2px;
   display: block;
 }
+#tabs2,
 #tabs .service-hour > strong {
   font-size: 20px;
   text-transform: uppercase;
