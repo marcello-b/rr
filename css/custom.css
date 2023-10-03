@@ -101,7 +101,7 @@
   }
 
   .light-grey {
-    color: #bbbbbb;
+    color: #bbbbbb !important;
   }
 
   .bold {
