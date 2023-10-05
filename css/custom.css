@@ -36,6 +36,7 @@
 
   .box-info {
     background-color: #f3f3f3;
+    min-height: 550px;
   }
 
   .txt-info {
@@ -102,6 +103,7 @@
 
   .light-grey {
     color: #bbbbbb !important;
+    color: #efefef;
   }
 
   .bold {
