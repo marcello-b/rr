@@ -20,6 +20,33 @@
     font-weight: bold;
   }
 
+  #book2 {
+    background-image: url("../images/fundo-ftp.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    /* background: #00B8FF; */
+    float: left;
+    width: 100%;
+    color: #fff;
+    height: 500px;
+    padding: 7em 0;
+  }
+
+  #book2 .section-title h2 {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 300;
+    letter-spacing: 3px;
+  }
+  #book2 .section-title h1 {
+    color: #fff !important;
+    font-weight: bold;
+  }
+
+  #book2 .white {
+    color: #fff !important;
+  }
+
   .panel-footer {
     padding: 10px 15px;
     background-color: #062940 !important;
@@ -37,6 +64,12 @@
   .box-info {
     background-color: #f3f3f3;
     min-height: 550px;
+  }
+
+  .box-info .btn-cont {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
   }
 
   .txt-info {
@@ -63,6 +96,12 @@
 
   .link-white:hover {
     color: navy;
+  }
+
+  .rc-0 {
+    position: relative;
+    right: 0;
+    bottom: 0;
   }
 
   .mb-15 {
