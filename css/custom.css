@@ -23,6 +23,7 @@
   #book2 {
     background-image: url("../images/fundo-ftp.jpg");
     background-attachment: fixed;
+    background-size: cover ;
     background-position: center;
     /* background: #00B8FF; */
     float: left;
