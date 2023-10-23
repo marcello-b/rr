@@ -9387,4 +9387,12 @@ input[type="text"] {
   height: 100%;
 }
 
+.whatsapp {
+  position: fixed;
+  top: 80%;
+  right: 1%;
+  padding: 15px;
+  z-index: 10000000;
+}
+
 /*# sourceMappingURL=style.css.map */
