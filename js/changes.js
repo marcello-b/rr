@@ -28,6 +28,26 @@ function mostraFit(bikefit){
   }
 
 
+// Mostra treino
+
+function mostraTreino(treino){
+    var destino = treino;
+    var foco = 'focus-' + treino;
+    document.getElementById("intervalado").style.display="none";
+    document.getElementById("focus-intervalado").style.display="none";
+    document.getElementById("simulado").style.display="none";
+    document.getElementById("focus-simulado").style.display="none";
+    document.getElementById("continuo").style.display="none";
+    document.getElementById("focus-continuo").style.display="none";
+    document.getElementById("corrida").style.display="none";
+    document.getElementById("focus-corrida").style.display="none";
+    document.getElementById(destino).style.display="block";
+    document.getElementById(foco).style.display="block";
+  }
+
+
+
+
 /* WOW
  ========================================================*/
  ;
@@ -45,23 +65,7 @@ function mostraFit(bikefit){
      }
  })(jQuery);
 
- // Mostra treino
-
-function mostraTreino(treino){
-    var destino = treino;
-    var foco = 'focus-' + treino;
-    document.getElementById("intervalado").style.display="none";
-    document.getElementById("focus-intervalado").style.display="none";
-    document.getElementById("simulado").style.display="none";
-    document.getElementById("focus-simulado").style.display="none";
-    document.getElementById("continuo").style.display="none";
-    document.getElementById("focus-continuo").style.display="none";
-    document.getElementById("corrida").style.display="none";
-    document.getElementById("focus-corrida").style.display="none";
-    document.getElementById(destino).style.display="block";
-    document.getElementById(foco).style.display="block";
-  }
-
+ 
 
 /* WOW
  ========================================================*/
