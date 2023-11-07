@@ -7983,10 +7983,10 @@ figure {
 }
 .slider-text > .slider-text-inner p {
   margin-bottom: 10px;
-  font-size: 18px;
-  font-weight: lighter;
-  /* color: #00B8FF rgba(255, 255, 255, 0.7); */
-  color: #00B8FF;
+  font-size: 20px;
+  /* font-weight: lighter; */
+  color: rgba(255, 255, 255, 0.6);
+  /* color: #00B8FF; */
   padding: 5px 0;
 }
 .slider-text > .slider-text-inner p > span {
@@ -7995,9 +7995,15 @@ figure {
   border-top: 1px solid #00B8FF;
   border-bottom: 1px solid  #00B8FF;*/
 }
+
+.slider-text > .slider-text-inner hr {
+  border-top: 1px solid #00B8FF;
+  width: 400px;
+}
+
 .slider-text > .slider-text-inner p .btn {
   font-size: 22px !important;
-  bordeR: 1px solid transparent;
+  border: 1px solid transparent;
   -webkit-border-radius: 30px;
   -moz-border-radius: 30px;
   -ms-border-radius: 30px;

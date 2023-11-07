@@ -191,7 +191,7 @@ $(function(){
       
       $('#fh5co-hero .flexslider').flexslider({
          animation: "fade",
-         slideshowSpeed: 8000,
+         slideshowSpeed: 10000,
          directionNav: true,
          start: function(){
             setTimeout(function(){
