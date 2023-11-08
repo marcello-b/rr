@@ -67,19 +67,3 @@ function mostraTreino(treino){
 
  
 
-/* WOW
- ========================================================*/
- ;
- (function ($) {
-     var o = $('html');
- 
-     if ((navigator.userAgent.toLowerCase().indexOf('msie') == -1 ) || (isIE() && isIE() > 9)) {
-         if (o.hasClass('desktop')) {
-             include('js/wow.js');
- 
-             $(document).ready(function () {
-                 new WOW().init();
-             });
-         }
-     }
- })(jQuery);
