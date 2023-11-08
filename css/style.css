@@ -7926,14 +7926,13 @@ figure {
 #fh5co-hero .flexslider .flex-control-nav {
   bottom: 60px;
   z-index: 1000;
-  right: 20px;
-  width: 25px;
-  float: right;
+  width: auto;
+  right: 48%;
 }
 #fh5co-hero .flexslider .flex-control-nav li {
   display: block !important;
   margin-bottom: 20px;
-  float: right;
+  float: left;
 }
 #fh5co-hero .flexslider .flex-control-nav li a {
   display: block !important;
