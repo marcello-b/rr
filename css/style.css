@@ -8715,7 +8715,9 @@ div.cs-select span {
 }
 
 #testimonial {
-  background: #107dac;
+  background-image: url("../images/background-romariz.jpg");
+  background-attachment: fixed;
+  /* background: #107dac; */
   font-weight: bold;
   float: left;
   width: 100%;

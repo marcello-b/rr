@@ -188,10 +188,6 @@ $(function(){
 
 
    var sliderMain = function() {
-
-      //$('#yourElement').load('yourUrl.html', function() {
-         /* When load is done */
-      // });
       
       $('#fh5co-hero .flexslider').flexslider ({
          animation: "fade",
